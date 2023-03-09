@@ -1,0 +1,10 @@
+---
+const { person } = Astro.props;
+---
+<article>
+  <h2>{person.FirstName} {person.LastName}</h2>
+  <!-- {person.CJKName && <h2>{person.CJKName}</h2>}) -->
+  <p><strong>Affiliation:</strong> {person.Affiliation}</p>
+  <p><strong>Bio URL:</strong> <a href={person.BioURL} target="_blank">{person.BioURL}</a></p>
+</article>
+

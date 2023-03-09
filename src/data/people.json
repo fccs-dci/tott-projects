@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Title": "",
+    "LastName": "Adal",
+    "FirstName": "Raja",
+    "CJKName": "",
+    "Email": "raja.adal@pitt.edu",
+    "Affiliation": "",
+    "BioURL": ""
+  },
+  {
+    "ID": "2",
+    "Title": "",
+    "LastName": "Amies",
+    "FirstName": "Alex",
+    "CJKName": "",
+    "Email": "alexamies@gmail.com",
+    "Affiliation": "University of the West",
+    "BioURL": "https://github.com/alexamies"
+  },
+  {
+    "ID": "3",
+    "Title": "",
+    "LastName": "Bao",
+    "FirstName": "Shuming",
+    "CJKName": "",
+    "Email": "sbao@umich.edu",
+    "Affiliation": "China Data Institute",
+    "BioURL": ""
+  },
+  {
+    "ID": "4",
+    "Title": "",
+    "LastName": "Bhikshu",
+    "FirstName": "Huimin",
+    "CJKName": "",
+    "Email": "huimin2525@gmail.com",
+    "Affiliation": "",
+    "BioURL": ""
+  },
+  {
+    "ID": "5",
+    "Title": "",
+    "LastName": "Bol",
+    "FirstName": "Peter",
+    "CJKName": "包弼德",
+    "Email": "peter_bol@harvard.edu",
+    "Affiliation": "Harvard University",
+    "BioURL": "https://scholar.harvard.edu/pkbol"
+  },
+  {
+    "ID": "6",
+    "Title": "",
+    "LastName": "Byerly",
+    "FirstName": "Maisy",
+    "CJKName": "",
+    "Email": "maisy.byerly@eastview.com",
+    "Affiliation": "",
+    "BioURL": ""
+  },
+  {
+    "ID": "7",
+    "Title": "",
+    "LastName": "Cha",
+    "FirstName": "Javier",
+    "CJKName": "",
+    "Email": "javiercha@hku.hk",
+    "Affiliation": "The University of Hong Kong",
+    "BioURL": "https://javiercha.com/"
+  },
+  {
+    "ID": "8",
+    "Title": "",
+    "LastName": "Chen",
+    "FirstName": "Shih-Pei",
+    "CJKName": "陳詩沛",
+    "Email": "schen@mpiwg-berlin.mpg.de",
+    "Affiliation": "Max Planck Institute for the History of Science",
+    "BioURL": "https://www.mpiwg-berlin.mpg.de/users/schen"
+  },
+  {
+    "ID": "9",
+    "Title": "",
+    "LastName": "Chen",
+    "FirstName": "Sophy Shu-Jiun",
+    "CJKName": "陳淑君",
+    "Email": "sophy@sinica.edu.tw",
+    "Affiliation": "Academia Sinica. Center for Digital Cultures",
+    "BioURL": "https://www1.ihp.sinica.edu.tw/Fellows/Shu-Jiun_Chen"
+  }
+]

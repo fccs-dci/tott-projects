@@ -1,0 +1,174 @@
+---
+import Layout from "../layouts/MainLayout.astro";
+import presentations from "../data/presentations.json";
+import Session from "../components/Session.astro";
+
+const sortByOrder = (a, b) => a.Order - b.Order;
+
+const D3PDictionaries = presentations
+    .filter((p) => p.Schedule === "D3_P_Dictionaries")
+    .sort(sortByOrder);
+const D3W1Room1 = presentations
+    .filter((p) => p.Schedule === "D3_W1_Room1")
+    .sort(sortByOrder);
+const D3W1Room2 = presentations
+    .filter((p) => p.Schedule === "D3_W1_Room2")
+    .sort(sortByOrder);
+const D3W1Room3 = presentations
+    .filter((p) => p.Schedule === "D3_W1_Room3")
+    .sort(sortByOrder);
+const D3W2Room1 = presentations
+    .filter((p) => p.Schedule === "D3_W2_Room1")
+    .sort(sortByOrder);
+const D3W2Room2 = presentations
+    .filter((p) => p.Schedule === "D3_W2_Room2")
+    .sort(sortByOrder);
+const D3W2Room3 = presentations
+    .filter((p) => p.Schedule === "D3_W2_Room3")
+    .sort(sortByOrder);
+const D3W3Room2 = presentations
+    .filter((p) => p.Schedule === "D3_W3_Room2")
+    .sort(sortByOrder);
+const D3W3Room3 = presentations
+    .filter((p) => p.Schedule === "D3_W3_Room3")
+    .sort(sortByOrder);
+---
+
+<Layout>
+    <div class="container">
+        <!-- D3_P_Dictionaries -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Plenary: National Dictionaries</h5>
+                    <strong>08:30-10:00 16 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai S010</strong>
+                    <p>Chair: Ronald Egan</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3PDictionaries.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W1_Room1 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Relational and Graph Databases and Linked Open Data</h5>
+                    <strong>10:15-12:00 16 March 2023</strong>
+                    <strong>CGIS South Tsai S010</strong>
+                    <p>Moderator: Michael Fuller</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W1Room1.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W1_Room2 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Novel Applications of Social Network Analysis</h5>
+                    <strong>10:15-12:00 16 March 2023</strong>
+                    <strong>CGIS South Belfer S020</strong>
+                    <p>Moderator: Song Chen</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W1Room2.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W1_Room3 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Digital Dictionaries</h5>
+                    <strong>10:15-12:00 16 March 2023</strong>
+                    <strong>CGIS South Kang S050</strong>
+                    <p>Moderator: Michael Love</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W1Room3.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W2_Room1 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Platforms and Cyberinfrastructure</h5>
+                    <strong>13:00-17:00 16 March 2023</strong>
+                    <strong>CGIS South Tsai S010</strong>
+                    <p>Moderator: Jeffrey Tharsen</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W2Room1.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W2_Room2 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Biographical Databases</h5>
+                    <strong>13:00-15:00 16 March 2023</strong>
+                    <strong>CGIS South Belfer S020</strong>
+                    <p>Moderator: Grace Fong</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W2Room2.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W2_Room3 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Databases for Contemporary Social Science</h5>
+                    <strong>13:00-15:00 16 March 2023</strong>
+                    <strong>CGIS South Kang S050</strong>
+                    <p>Moderator: Peter Bol</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W2Room3.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W3_Room2 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Syllabi for the Digital Humanities</h5>
+                    <strong>15:15-17:00 16 March 2023</strong>
+                    <strong>CGIS South Belfer S020</strong>
+                    <p>Moderator: Paul Vierthaler</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W3Room2.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D3_W3_Room3 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Doing Research with Digital Techniques</h5>
+                    <strong>15:15-17:00 16 March 2023</strong>
+                    <strong>CGIS South Kang S050</strong>
+                    <p>Moderator: Hilde De Weerdt</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D3W3Room3.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+    </div>
+</Layout>

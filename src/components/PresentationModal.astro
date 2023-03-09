@@ -1,0 +1,13 @@
+---
+const { persentation } = Astro.props;
+---
+<dialog>
+    <article>
+        <header>
+            <a href="#close" aria-label="Close" class="close"></a>
+            { persentation.PresentationTitle }
+        </header>
+            { persentation.Abstract && <p>{ persentation.Abstract }</p> }
+            { persentation.URL && <a href={persentation.URL}>Link to the project</a>}
+    </article>
+</dialog>

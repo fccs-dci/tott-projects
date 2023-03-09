@@ -1,0 +1,42 @@
+---
+const { p } = Astro.props;
+---
+
+<details>
+    <summary>
+        <div>
+            <strong>{p.PresentationTitle}</strong>
+        </div>
+        <span>
+            {
+                p.presenters.map((presenter) => (
+                    <span>
+                        {presenter.URL ? (
+                            <a href={presenter.URL} target="_blank">
+                                {presenter.FirstName} {presenter.LastName}{" "}
+                                {presenter.CJKName}
+                            </a>
+                        ) : (
+                            <span>
+                                {presenter.FirstName} {presenter.LastName}{" "}
+                                {presenter.CJKName}
+                            </span>
+                        )}{" "}
+                        {presenter.Affiliation}
+                        <br />
+                    </span>
+                ))
+            }
+        </span>
+    </summary>
+    {
+        p.ProjectLink ? (
+            <a href={p.ProjectLink} target="_blank">
+                Project Page
+            </a>
+        ) : null
+    }
+    <p>{p.Abstract}</p>
+</details>
+
+<style></style>

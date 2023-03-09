@@ -1,0 +1,51 @@
+---
+import "@picocss/pico";
+// import "../style/theme.css";
+// import Header from "../components/Header.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Tools of the Trade: the Way Forward</title>
+	</head>
+	<header>
+		<div class="container">
+			<nav>
+				<ul>
+					<li>
+						<h3>Tools of the Trade: The Way Forward</h3>
+					</li>
+				</ul>
+				<ul>
+					<li><a href="/" role="button" class="outline">Day 1</a></li>
+					<li>
+						<a href="/day_two" role="button" class="outline"
+							>Day 2</a
+						>
+					</li>
+					<li>
+						<a href="/day_three" role="button" class="outline"
+							>Day 3</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<body>
+		<div class="container">
+			<p>
+				To use the search function, please either use the “Search in
+				Page” function or the keyboard shortcuts (Ctrl+F on Windows or
+				Command+F on Mac).
+			</p>
+			<slot />
+		</div>
+	</body>
+
+
+</html>
