@@ -1,11 +1,262 @@
 ---
 import Layout from "../layouts/MainLayout.astro";
 import presentations from "../data/presentations.json";
+import Session from "../components/Session.astro";
 
-const D3W3Room3 = presentations.filter((p) => p.Schedule === "D3_W3_Room3");
-const D3W3Room2 = presentations.filter((p) => p.Schedule === "D3_W3_Room2");
+const sortByOrder = (a, b) => a.Order - b.Order;
+
+const D2PResearch = presentations
+    .filter((p) => p.Schedule === "D2_P_Research")
+    .sort(sortByOrder);
+
+const D2CS1Room1 = presentations
+    .filter((p) => p.Schedule === "D2_Center_Session 1 Room 1")
+    .sort(sortByOrder);
+
+const D2CS1Room2 = presentations
+    .filter((p) => p.Schedule === "D2_Center_Session 1 Room 2")
+    .sort(sortByOrder);
+
+const D2CS1Room3 = presentations
+    .filter((p) => p.Schedule === "D2_Center_Session 1 Room 3")
+    .sort(sortByOrder);
+
+const D2CS1Room4 = presentations
+    .filter((p) => p.Schedule === "D2_Center_Session 1 Room 4")
+    .sort(sortByOrder);
+
+const D2CS2Room1 = presentations
+    .filter((p) => p.Schedule === "D2_Center_Session 2")
+    .sort(sortByOrder);
+
+const D2WRoom2 = presentations
+    .filter((p) => p.Schedule === "D2_W_Room2")
+    .sort(sortByOrder);
+
+const D2WRoom3 = presentations
+    .filter((p) => p.Schedule === "D2_W_Room3")
+    .sort(sortByOrder);
+
+const D2WRoom4 = presentations
+    .filter((p) => p.Schedule === "D2_W_Room4")
+    .sort(sortByOrder);
+
+const D2WRoom5 = presentations
+    .filter((p) => p.Schedule === "D2_W_Room5")
+    .sort(sortByOrder);
+
+const D2EChina = presentations
+    .filter((p) => p.Schedule === "D2_E_China")
+    .sort(sortByOrder);
+
+const D2EJapan = presentations
+    .filter((p) => p.Schedule === "D2_E_Japan")
+    .sort(sortByOrder);
+
+const D2EKorea = presentations
+    .filter((p) => p.Schedule === "D2_E_Japan")
+    .sort(sortByOrder);
+
+const D2EBuddhism = presentations
+    .filter((p) => p.Schedule === "D2_E_Buddhism")
+    .sort(sortByOrder);
 ---
 
 <Layout>
-    
+    <div>
+        <!-- D2_P_Research -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Plenary: Research Centers Visions for the Future</h5>
+                    <strong>08:30-10:00 15 March 2023</strong>
+                    <strong class="secondary">Science Center Hall C</strong>
+                    <p>Chair: Michael Szonyi</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2PResearch.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_Center_Session 1 Room 1 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Center Session: China</h5>
+                    <strong>10:45-12:30 15 March 2023</strong>
+                    <strong class="secondary">Science Center Hall C</strong>
+                    <p>Moderator: Peter Bol</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2CS1Room1.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_Center_Session 1 Room 2 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Center Session: Japan</h5>
+                    <strong>10:45-12:30 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai S010</strong>
+                    <p>Moderator: Katherine Matsuura</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2CS1Room2.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_Center_Session 1 Room 3 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Center Session: Korea</h5>
+                    <strong>10:45-12:30 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Belfer 020</strong>
+                    <p>Moderator: Javier Cha</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2CS1Room3.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_Center_Session 1 Room 4 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Center Session: Buddhism</h5>
+                    <strong>10:45-12:30 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Kang 050</strong>
+                    <p>Moderator: Lauran R. Hartley</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2CS1Room4.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_Center_Session 2 Room 1 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Center Session: Taiwan</h5>
+                    <strong>13:15-15:15 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai S010</strong>
+                    <p>Moderator: Shu-hsien Tseng</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2CS2Room1.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_W_Room2 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Text Analysis</h5>
+                    <strong>13:15-15:15 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Belfer S020</strong>
+                    <p>Moderator: Donald Sturgeon</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2WRoom2.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_W_Room3 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Geographical Information Systems</h5>
+                    <strong>13:15-15:15 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Kang S030</strong>
+                    <p>Moderator: Mark Henderson</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2WRoom3.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_W_Room4 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Oral Histories</h5>
+                    <strong>13:15-15:15 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Kang S050</strong>
+                    <p>Moderator: Lauran R. Hartley</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2WRoom4.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_E_China -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: China</h5>
+                    <strong>15:30-18:00 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai S010</strong>
+                    <p>Moderator: Hsiang Jieh</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2EChina.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_E_Japan -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: Japan</h5>
+                    <strong>15:30-18:00 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai S010</strong>
+                    <p>Moderator: Nagasaki Kiyonori</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2EJapan.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_E_Korea -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: Korea</h5>
+                    <strong>15:30-18:00 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai S030</strong>
+                    <p>Moderator: Si Nae Park</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2EKorea.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D2_E_Buddhism -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: Buddhism</h5>
+                    <strong>15:30-18:00 15 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai S050</strong>
+                    <p>Moderator: Shimoda Masahiro</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D2EBuddhism.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+    </div>
 </Layout>
