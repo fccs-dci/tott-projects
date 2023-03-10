@@ -2,6 +2,226 @@
 import Layout from "../layouts/MainLayout.astro";
 import presentations from "../data/presentations.json";
 import Session from "../components/Session.astro";
+
+const sortByOrder = (a, b) => a.Order - b.Order;
+
+const D1PLibraries = presentations
+    .filter((p) => p.Schedule === "D1_P_Libraries")
+    .sort(sortByOrder);
+
+const D1LibrariesSessions1 = presentations
+    .filter((p) => p.Schedule === "D1_libraries_sessions 1")
+    .sort(sortByOrder);
+
+const D1LibrariesSessions2 = presentations
+    .filter((p) => p.Schedule === "D1_libraries_sessions 2")
+    .sort(sortByOrder);
+
+const D1LibrariesSessions3 = presentations
+    .filter((p) => p.Schedule === "D1_libraries_sessions 3")
+    .sort(sortByOrder);
+
+const D1LibrariesSessions4 = presentations
+    .filter((p) => p.Schedule === "D1_libraries_sessions 4")
+    .sort(sortByOrder);
+
+const D1PDH = presentations
+    .filter((p) => p.Schedule === "D1_P_DH")
+    .sort(sortByOrder);
+
+const D1EChina = presentations
+    .filter((p) => p.Schedule === "D1_E_China")
+    .sort(sortByOrder);
+
+const D1EJapan = presentations
+    .filter((p) => p.Schedule === "D1_E_Japan")
+    .sort(sortByOrder);
+
+const D1EKorea = presentations
+    .filter((p) => p.Schedule === "D1_E_Korea")
+    .sort(sortByOrder);
+
+const D1EBuddhism = presentations
+    .filter((p) => p.Schedule === "D1_E_Buddhism")
+    .sort(sortByOrder);
+
+const D1ECollection = presentations
+    .filter((p) => p.Schedule === "D1_E_Collection")
+    .sort(sortByOrder);
 ---
 
-<Layout />
+<Layout>
+    <div>
+        <!-- D1_P_Libraries -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Plenary: Library Visions of the Future</h5>
+                    <strong>08:30-10:00 14 March 2023</strong>
+                    <strong class="secondary">Science Center Hall C</strong>
+                    <p>Chair: Jidong Yang</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1PLibraries.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_libraries_sessions 1 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Library Sessions: National Central Library, Taiwan</h5>
+                    <strong>11:00-12:00 14 March 2023</strong>
+                    <strong class="secondary">Science Center Hall C</strong>
+                    <p>Chair: Jidong Yang</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1LibrariesSessions1.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_libraries_sessions 2 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Library Sessions: National Diet Library, Japan</h5>
+                    <strong>11:00-12:00 14 March 2023</strong>
+                    <strong class="secondary"
+                        >CGIS South Tsai Auditorium S010</strong
+                    >
+                    <p>Chair: Kuniko McVey</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1LibrariesSessions2.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_libraries_sessions 3 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Library Sessions: National Library of Korea</h5>
+                    <strong>11:00-12:00 14 March 2023</strong>
+                    <strong class="secondary">CGIS South Tsai Kang S050</strong>
+                    <p>Chair: Mikyung Kang</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1LibrariesSessions3.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_libraries_sessions 4 -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Library Sessions: Libraries of Vietnam</h5>
+                    <strong>11:00-12:00 14 March 2023</strong>
+                    <strong class="secondary">CGIS South Lam S001</strong>
+                    <p>Chair: Cindy Nguyen</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1LibrariesSessions4.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_P_Libraries -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>
+                        Plenary: Overview Digital Humanities for East Asian
+                        Studies
+                    </h5>
+                    <strong>13:30-15:30 14 March 2023</strong>
+                    <strong class="secondary">Science Center Hall C</strong>
+                    <p>Chair: Si Nae Park</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1PDH.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_E_China -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: China</h5>
+                    <strong>16:00-17:30 14 March 2023</strong>
+                    <strong class="secondary">Science Center Hall C</strong>
+                    <p>Chair: Hsiyuan Chen</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1EChina.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_E_Japan -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: Japan</h5>
+                    <strong>16:00-17:30 14 March 2023</strong>
+                    <strong class="secondary"
+                        >CGIS South Tsai Auditorium S010</strong
+                    >
+                    <p>Chair: Paula Curtis</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1EJapan.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_E_Korea -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: Korea</h5>
+                    <strong>16:00-17:30 14 March 2023</strong>
+                    <strong class="secondary">CGIS South Kang S050</strong>
+                    <p>Chair: Hyeon Kim</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1EKorea.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_E_Buddhism -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: Buddhism</h5>
+                    <strong>16:00-17:30 14 March 2023</strong>
+                    <strong class="secondary">CGIS South Lam S030</strong>
+                    <p>Chair: James Robson</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1EBuddhism.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+
+        <!-- D1_E_Collection -->
+        <details>
+            <summary>
+                <hgroup>
+                    <h5>Exemplary Projects: Collection Discovery</h5>
+                    <strong>16:00-17:30 14 March 2023</strong>
+                    <strong class="secondary">CGIS South Lee S030</strong>
+                    <p>Chair: Sharon Yang</p>
+                </hgroup>
+            </summary>
+            <article>
+                {D1ECollection.map((p) => <Session p={p} />)}
+            </article>
+        </details>
+    </div>
+</Layout>
