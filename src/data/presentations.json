@@ -146,7 +146,7 @@
         "Title": "Hsiang-An Wang",
         "LastName": "Wang",
         "FirstName": "Hsiang-An",
-        "Affiliation": "Academia Sinica Center for Digital Cultures"
+        "Affiliation": "Center for Digital Cultures, Academia Sinica"
       }
     ],
     "Order": 2
@@ -280,6 +280,7 @@
   {
     "ID": 18,
     "PresentationTitle": "Jingyuan Series of Digital Tools for Oracle Bone Image and Text Processing with an Introduction of Hopkins Oracle Bones Collection at Cambridge University Library",
+    "Abstract": "This presentation includes two parts: First we will introduce the Hopkins Oracle Bones Collection at University of Cambridge and its 3D images. Then we will introduce \"Jingyuan Digital Series,\" an ensemble of tools and software designed to facilitate oracle bone research in terms of artifact classification, rejoining, decipherment and related historical studies. It involves traditional algorithm design and novel machine learning methods adapted from the fields of image processing, text analysis and data structuring. Co-authors: Mr Peichao Qin and Dr Yan He from University of Cambridge.",
     "Schedule": "D3_W3_Room3",
     "presenters": [
       {
@@ -303,7 +304,9 @@
   },
   {
     "ID": 19,
-    "PresentationTitle": "Index Database for Digital Collections on Chinese Studies",
+    "PresentationTitle": "Index Databases for Digital Collections on Chinese Studies",
+    "ProjectLink": "Project 1: https://www.arcgis.com/apps/dashboards/e7a42d1ee49a4b25a20332483cff0300; Project 2 and 3: https://public.tableau.com/app/profile/yanhe",
+    "Abstract": "This presentation will introduce three open access index databases for research, teaching and learning: 1. Digital Collections for Chinese Studies in North America; 2. Index Database for Periodicals published during the Late Qing and Republican Eras; 3. Index Database for Digital Collections on Pre-Modern China. Co-authors: Dr Yan He (University of Cambridge, UK), Professor Marc Matten (FAU, Germany) and Ms. Xinzi Dinghe (Capital Normal University, China).",
     "Schedule": "D1_E_Collection",
     "presenters": [
       {
@@ -319,6 +322,7 @@
         "Title": "Xinzi Dinghe",
         "LastName": "Dinghe",
         "FirstName": "Xinzi",
+        "CJKName": "丁何昕子",
         "Affiliation": "Capital Normal University"
       }
     ],
@@ -412,7 +416,7 @@
   },
   {
     "ID": 27,
-    "PresentationTitle": "Digital Classical Chinese Texts: Building a Machine Learning Platform for Collaborative Graduate Research",
+    "PresentationTitle": "Interactive HPC using Containers on Nautilus:Introduction to PRP Nautilus, Kubernetes, and Containerized Software",
     "Schedule": "D3_W2_Room1",
     "presenters": [
       {
@@ -446,7 +450,7 @@
   },
   {
     "ID": 29,
-    "PresentationTitle": "(Day 2 Exemplary Project) Database of Biographical Data in Chinese Temple Gazetteers",
+    "PresentationTitle": "Database of Biographical Data in Chinese Temple Gazetteers",
     "Schedule": "D2_E_Buddhism",
     "presenters": [
       {
@@ -454,6 +458,7 @@
         "Title": "Jen Jou Hung",
         "LastName": "Hung",
         "FirstName": "Jen Jou",
+        "CJKName": "洪振洲",
         "Affiliation": "Dharma Drum Institute of Liberal Arts",
         "URL": "http://joeyhung.info/short-cv/"
       }
@@ -684,6 +689,7 @@
     "ID": 43,
     "PresentationTitle": "Constitutional Revision Research Project",
     "ProjectLink": "https://www.crjapan.org/",
+    "Abstract": "The Constitutional Revision Research Project was first convened in 2005 in order to provide a locus of discussion on constitutional debate and policy in Japan, and archiving born-digital materials surrounding this discourse was an early focus for the project. In 2023, the Japan Digital Research Center has announced the launch of a new project site, which offers insights into a spectrum of views held by 126 organizations and individuals connected to constitutional revision, as well as the 36 drafts they have created. All drafts can be explored on their own or through side-by-side comparison, and also through an interactive page that places them in direct conversation with the official constitution.",
     "Schedule": "D1_E_Japan",
     "presenters": [
       {
@@ -708,7 +714,7 @@
   {
     "ID": 45,
     "PresentationTitle": "The SAT Daizōkyō Text Database",
-    "ProjectLink": "https://www.dhii.jp/nagasaki/",
+    "ProjectLink": "https://21dzk.l.u-tokyo.ac.jp/SAT/index_en.html",
     "Schedule": "D1_E_Buddhism",
     "presenters": [
       {
@@ -742,6 +748,7 @@
   {
     "ID": 47,
     "PresentationTitle": "Political Vocabulary of the Japanese Diaspora, 1895 - 1943",
+    "Abstract": "I share possibilities and challenges of using computational methods to investigate changes in word usage and meaning in the Hoji Shimbun Digital Archive, the world's largest collection of Japanese diaspora newspapers. I focus on newspapers from San Francisco, Honolulu, São Paolo, and the greater Beijing/Dalian area over a four decade period. I demonstrate how tracking word frequencies, collocations, and semantic embeddings can permit trans-regional and trans-temporal comparison.",
     "Schedule": "D2_W_Room2",
     "presenters": [
       {
@@ -758,6 +765,7 @@
   {
     "ID": 48,
     "PresentationTitle": "Natural Language Processing and Vectorization of Encyclopedic Drawings and Vietnamese, Nom, and French language Texts",
+    "Abstract": "How can digital humanities  invite decolonial interpretive frameworks for historical texts? I examine a 1909-1910 multilingual visual encyclopedia of Vietnamese crafts, cultural practices, and technologies that comprises 4,356 drawings, 4,428 captions in French, and 2,904 captions Vietnamese chữ Nôm (a logographic Sinitic writing system of Vietnamese language). I use a hybrid method of close reading, visual analysis, content analysis, and vector space models to uncover a nuanced understanding of Vietnamese social life and material culture in early twentieth century urbanizing Hanoi. As a focused case study, I reimagine and recontextual social worlds through a layered analysis of visual-textual representations of female labor and childcare. This project envisions decolonial interpretive frameworks that center historically marginalized agency, invisible authorship, and non-linear narrative forms.",
     "Schedule": "D2_W_Room2",
     "presenters": [
       {
@@ -773,14 +781,15 @@
   },
   {
     "ID": 49,
-    "PresentationTitle": "Japan Past & Present-information hub and repository",
+    "PresentationTitle": "Japan Past & Present-Information hub and repository",
+    "Abstract": "This presentation will introduce Japan Past & Present, a global information hub and repository that promotes research and teaching in the Japanese humanities across disciplinary, temporal, and geographic borders. It will discuss JPP’s mission, infrastructure, and current projects under development.",
     "Schedule": "D2_E_Japan",
     "presenters": [
       {
         "ID": 74,
-        "Title": "Paula Curtis",
+        "Title": "Paula R. Curtis",
         "LastName": "Curtis",
-        "FirstName": "Paula",
+        "FirstName": "Paula R.",
         "Affiliation": "University of California, Los Angeles",
         "URL": "http://prcurtis.com/"
       }
@@ -798,7 +807,8 @@
         "ID": 114,
         "Title": "Keiji Yano",
         "LastName": "Yano",
-        "FirstName": "Keiji"
+        "FirstName": "Keiji",
+        "Affiliation": "Ritsumeikan University, Kyoto"
       }
     ],
     "Order": 4
@@ -857,7 +867,7 @@
     "ID": 153,
     "PresentationTitle": "The Knowledge Database/ Relationship Graph of the CPC",
     "ProjectLink": "http://networkcpc.herokuapp.com/",
-    "Abstract": "This study is to construct a database of major politicians in China using \"experience/position/workplace\" as metadata. This graph connects with data at the \"central/provincial/prefecture\" levels and includes more than a thousand Chinese political elites by their resumes. Readers can query factional and geographical relations and other pertinent information, which can help in observing Chinese politics. For those interested in collaboration or offering feedback, please contact Dr. Hsuanlei Shao at hlshao2@gmail.com.\nThis study is to construct a database of major politicians in China using \"experience/position/workplace\" as metadata. This graph connects with data at the \"central/provincial/prefecture\" levels and includes more than a thousand Chinese political elites by their resumes. Readers can query factional and geographical relations and other pertinent information, which can help in observing Chinese politics. \nThere are various \"knowledge pages\" in the upper right corner:\nA. In the \"(relFinder) Organization and Leader Network Diagram\", the relationship name of \"Entity Pair (Person/Organization/Location)\" is provided. Click the \"node\" with the mouse to display more information.\nB. In the \"(GraphExplorer) Organizational Network Graph\", the reader provides the peripheral nodes of \"Single Entity (Person/Organization/Location)\".\nC. In the \"(GraphNavigator) Leader Network Diagram\", view the relationship between the two leaders, including related organizations or people.\nFor those interested in collaboration or offering feedback, please contact Dr. Hsuanlei Shao at hlshao2@gmail.com.",
+    "Abstract": "This study is to construct a database of major politicians in China using \"experience/position/workplace\" as metadata. This graph connects with data at the \"central/provincial/prefecture\" levels and includes more than a thousand Chinese political elites by their resumes. Readers can query factional and geographical relations and other pertinent information, which can help in observing Chinese politics. For those interested in collaboration or offering feedback, please contact Dr. Hsuanlei Shao at hlshao2@gmail.com.\nThis study is to construct a database of major politicians in China using \"experience/position/workplace\" as metadata. This graph connects with data at the \"central/provincial/prefecture\" levels and includes more than a thousand Chinese political elites by their resumes. Readers can query factional and geographical relations and other pertinent information, which can help in observing Chinese politics. \nThere are various \"knowledge pages\" in the upper right corner:\nA. In the \"(relFinder) Organization and Leader Network Diagram\", the relationship name of \"Entity Pair (Person/Organization/Location)\" is provided. Click the \"node\" with the mouse to display more information.\nB. In the \"(GraphExplorer) Organizational Network Graph\", the reader provides the peripheral nodes of \"Single Entity (Person/Organization/Location)\".\nC. In the \"(GraphNavigator) Leader Network Diagram\", view the relationship between the two leaders, including related organizations or people.\nFor those interested in collaboration or offering feedback, please contact Dr. Hsuanlei Shao at hlshao2@gmail.com.\nVideo: https://youtu.be/ZkXD-vk2gkg",
     "Schedule": "D3_W1_Room2",
     "presenters": [
       {
@@ -874,7 +884,7 @@
   },
   {
     "ID": 155,
-    "PresentationTitle": "(Day 1 Exemplary Project)The Database of Religious History (DRH)",
+    "PresentationTitle": "The Database of Religious History (DRH)",
     "ProjectLink": "https://religiondatabase.org/landing/",
     "Schedule": "D1_E_Buddhism",
     "presenters": [
@@ -908,7 +918,7 @@
   },
   {
     "ID": 157,
-    "PresentationTitle": "(Day 2 Exemplary Project)Spatial distribution and network analysis of Buddhist dharma lineages in Chosŏn Korea",
+    "PresentationTitle": "Spatial Studies of Korean Buddhism",
     "Schedule": "D2_E_Buddhism",
     "presenters": [
       {
@@ -994,6 +1004,8 @@
   {
     "ID": 167,
     "PresentationTitle": "DocuSky as a Research Platform",
+    "ProjectLink": "https://docusky.org.tw/DocuSky",
+    "Abstract": "DocuSky is a platform for digital humanities research.  It allows one to construct a database that supports fulltext search, browsing, post-classification, and data visualization.  In this presentation, we shall illustrate DocuSky features with several use cases.",
     "Schedule": "D3_W2_Room1",
     "presenters": [
       {
@@ -1043,7 +1055,7 @@
   },
   {
     "ID": 171,
-    "PresentationTitle": "Visualizing Regional Religious Systems in Hangzhou, China",
+    "PresentationTitle": "Visualizing Regional Religious Systems in Hangzhou, China (co-authored by Philip Stoker)",
     "ProjectLink": "rrs.arizona.edu",
     "Abstract": "In March 2021, Dr. Philip Stoker and Dr. Jiang Wu received a College of Architecture,\nPlanning, and Landscape Architecture (CAPLA) Grassroots Seed Grant. Their project,\n“Visualizing Regional Religious System: Mapping Buddhist Temples in a Digital Atlas of\nReligion,” has been approved for funding totaling $7,000 and has been supported by the Center\nfor Buddhist Studies and the College of Humanities IT team.\nIn the past year, Dr. Stoker and Dr. Wu, with the help of a group of graduate students,\nhave developed and designed a new website for digital atlas of the Buddhist temples in the\nHangzhou area of China. The broader goal is to create a full atlas for all provinces in China, but\nthis seed grant provided the catalyst to start this project and help to secure future funding and\nsupport. The current project builds upon two previous projects: the Regional Religious System\nProject Maps and the Buddhist Geographical Information System (BGIS). These projects created\na searchable database of Buddhist monasteries to promote studies about the geographical\ndistribution of Buddhism, pilgrimage networks, and their relationship to other social and cultural\nevents and phenomena. However, this dataset has not been designed nor produced for a broad\naudience. The funding from CAPLA has been used to support the design and geo-visualization\nfor this atlas.\nIn this presentation, Dr. Philip Stoker and his assistant Glenn Ingram will unveil the new\n\ndesign and geo-visualization of the project website (rrs.arizona.edu) and its related datasets. Geo-\nvisualization is currently the trend among cartographic professionals to better organize geodata\n\nfor decision-making and knowledge storage. The new RRS website design embodies some of the\nmost essential geo-visualization principle and aims to present regional religious systems in the\n\nHangzhou area with a fresh look. Their presentation will also introduce the style sheet for geo-\nvisualization in order to create standardized maps for all datasets.\n\nThis is a team effort between Dr. Jiang Wu, Professor of East Asian Studies, Director of\nthe Center for Buddhist Studies and Dr. Philip Stoker, Assistant Professor of Landscape\nArchitecture and Planning. The collaboration will bring together the information and data that Dr.\n\nPNC 2022 Annual Conference and Joint Meetings\n\nWu and his team have developed and the cartography and design capacity of Dr. Stoker and his\nteam. Dr. Stoker has been teaching GIS and map design in CAPLA for four years. Dr. Stoker is\nPresident of the UA GIS Users group on campus and has led campus wide cartography brown\nbag workshops. Dr. Stoker’s maps have been published in nationally recognized publications like\nthe Journal of the American Planning Association, Landscape and Urban Planning, and\nSustainable Cities and Societies. Dr. Wu has conducted research by applying GIS methods to\nstudy religious sites since 2003. He has developed multiple databases and datasets of Chinese\nreligion, especially in the Hangzhou area. The Buddhist Geographic Information System (BGIS)\nproject he initiated is a comprehensive database of Buddhist monasteries in China that can be\nextended to other areas of East Asia as well. He has also developed a sophisticated methodology\nfor studying the distribution of religious sites and their correlation with other socioeconomic\nfactors, namely the concept and method of Regional Religious Systems (RRS). A summary of his\nfinding can be found in a Wikipedia entry at\nhttp://en.wikipedia.org/wiki/Regional_Religious_System. He has also organized an international\nconference on RRS in 2016. An anthology of the conference papers on the concept and method of\nRRS (The Formation of Regional Religious Systems in Greater China) has been published by\nRoutledge in 2022 in the Spatial Humanities Series edited by David Bodenheimer.\nKeywords: Geo-visualization, Regional Religious Systems (RRS), Hangzhou, Buddhist\nTemples, Digital Atlas",
     "Schedule": "D2_W_Room3",
@@ -1132,6 +1144,7 @@
   {
     "ID": 176,
     "PresentationTitle": "The Chinese Factory Project: A Digital History and Data Analytics Project",
+    "ProjectLink": "cfp.pubpub.org",
     "Schedule": "D3_W2_Room3",
     "presenters": [
       {
@@ -1175,7 +1188,7 @@
   },
   {
     "ID": 178,
-    "PresentationTitle": "CR/10",
+    "PresentationTitle": "Oral Histories of the Cultural Revolution and Contemporary China",
     "ProjectLink": "https://culturalrevolution.pitt.edu/",
     "Abstract": "The full title of CR/10 is Cultural Revolution 10. It is an oral history project initiated by East Asian Library, University of Pittsburgh Library System. This presentation will be presented by Haihui Zhang, CR/10 project initiator, and Dr. Rongqian Ma, a former member of CR/10 team and now Assistant Professor at the Department of Information and Library Science of the Luddy School of Information, Computing, and Engineering at Indiana University Bloomington.  This presentation will focus on tools used in CR/10 process, and accessibility and maintenance.",
     "Schedule": "D2_W_Room4",
@@ -1203,7 +1216,7 @@
   },
   {
     "ID": 180,
-    "PresentationTitle": "(Day 2 Exemplary Project) Using historical maps to predict economic activity",
+    "PresentationTitle": "Using historical maps to predict economic activity",
     "ProjectLink": "https://arxiv.org/abs/2112.13850",
     "Abstract": "We introduce a novel machine learning approach to leverage historical and contemporary maps and systematically predict economic statistics. Our simple algorithm extracts meaningful features from the maps based on their color compositions for predictions. We apply our method to grid-level population levels in Sub-Saharan Africa in the 1950s and South Korea in 1930, 1970, and 2015. Our results show that maps can reliably predict population density in the mid-20th century Sub-Saharan Africa using 9,886 map grids (5km by 5 km). Similarly, contemporary South Korean maps can generate robust predictions on income, consumption, employment, population density, and electric consumption. In addition, our method is capable of predicting historical South Korean population growth over a century.",
     "Schedule": "D2_E_Korea",
@@ -1277,7 +1290,8 @@
         "Affiliation": "Leipzig University",
         "URL": "https://www.uni-leipzig.de/en/profile/mitarbeiter/thorben-pelzer"
       }
-    ]
+    ],
+    "Order": 3
   },
   {
     "ID": 184,
@@ -1309,6 +1323,7 @@
     "ID": 185,
     "PresentationTitle": "Project Mo文oN",
     "ProjectLink": "http://www.koreatext.org/",
+    "Abstract": "Housed at the Cambridge Institute for the Study of Korea, a Massachusetts non-profit, Project Mo文oN is an ongoing effort to democratize access to information technologies, inspire innovative research, develop useful learning environments, and enable artful expression. This presentation will briefly describe the project’s history, its origins in the development of tools for the study of Korean literature, as well as its current initiatives, which are focused on enabling scholars of East Asia and memory institutions around the world to take advantage of recent developments in artificial intelligence. It will conclude with a description of work done by researchers associated with the project at the National Library of Korea to transcribe late nineteenth / early twentieth-century Korean periodicals using deep learning.",
     "Schedule": "D1_E_Korea",
     "presenters": [
       {
@@ -1323,8 +1338,9 @@
   },
   {
     "ID": 186,
-    "PresentationTitle": "AI Authoring",
+    "PresentationTitle": "AI Authoring for Korean",
     "ProjectLink": "http://www.koreatext.org/",
+    "Abstract": "This presentation will introduce a set of tools developed in collaboration with the Cambridge Institute for the Study of Korea and its Project Mo文oN. These tools enable scholars studying East Asia to build their own, problem specific, assistive artificial intelligence solutions. The presentation will describe how these tools enable scholars to quickly gather and curate high-quality data, as well as use the data they curate to create custom artificial intelligence solutions for domain specific problems. In short, attendees will learn about tools that enable East Asianists to author their own AI solutions that support their own specific research aims.",
     "Schedule": "D2_W_Room2",
     "presenters": [
       {
@@ -1341,6 +1357,7 @@
     "ID": 187,
     "PresentationTitle": "Treasury of Lives",
     "ProjectLink": "https://treasuryoflives.org/",
+    "Abstract": "The Treasury of Lives is an online-only biographical encyclopedia of Tibet, Inner Asia, and the Himalaya. With over 1300 biographies, we have accumulated a great deal of data. A site redevelopment now nearing completion will transition the database to Linked Open Data model.",
     "Schedule": "D3_W2_Room2",
     "presenters": [
       {
@@ -1350,7 +1367,8 @@
         "FirstName": "Alexander",
         "Affiliation": "Treasury of Lives"
       }
-    ]
+    ],
+    "Order": 4
   },
   {
     "ID": 188,
@@ -1439,6 +1457,8 @@
   {
     "ID": 193,
     "PresentationTitle": "Rescuing Untold Oral Histories: Archiving and Unlocking the War of Memory of the Vietnam Wars",
+    "ProjectLink": "https://ash.harvard.edu/global-vietnam-wars-studies",
+    "Abstract": "This presentation introduces how the Harvard Kennedy School’s Global Vietnam Wars Studies Initiative has been collecting, documenting, and archiving uncensored audio-visual interviews as new digital scholastic materials. These oral histories delve deeply into the unheard voices and unrested war memories of veterans from all sides including military commanders, political officers, spies, enlisted men and women civilians whose voices have never been heard within the Vietnam War history. Video-recording such hidden memories from the opposing and allied sides elaborated genuine texture to the war’s poignant consequences, and concurrently provided new perceptions of the post-war Vietnam. Using oral history materials as primacy sources and employing first-person memory as both source and subject, this digitalized oral history video database will offer state-of-art pedagogical substance to innovate history disciplines, promoting new interdisciplinary and collaborative approaches and multiple perspectives, e.g. military, political, socio-economic, cultural, and religious, to study and teach Vietnam War histories against the backdrop of the 21st century realities.",
     "Schedule": "D2_W_Room4",
     "presenters": [
       {
@@ -1449,8 +1469,7 @@
         "Affiliation": "Harvard Kennedy School",
         "URL": "https://ash.harvard.edu/people/mai-bui-dieu-linh"
       }
-    ],
-    "Order": 1
+    ]
   },
   {
     "ID": 194,
@@ -1489,6 +1508,7 @@
   {
     "ID": 196,
     "PresentationTitle": "From 'Digitalization' to 'Digital Transformation' in the World of Classical East Asian Studies - Experiments in the 'Hanyang Time Machine' Project",
+    "ProjectLink": "http://dh.aks.ac.kr/~tutor/wiki/index.php/TTOT-45718",
     "Abstract": "Hanyang Time Machine Project, which reconstructs Hanyang, the capital of Joseon (1392-1910), in the digital virtual world aims not only to show the appearance of the buildings, but also to know who lived in the city, what relationships they maintained, and what culture they enjoyed. \n  To achieve this goal, we created an organization where digital engineers and humanities researchers collaborated and tried to convert humanities knowledge related to cultural heritage into digital data.\n  The way we chose to convert humanities knowledge into digital data is to create Resource Description Framework (RDF) triples by extracting the contextual elements and relationships from the text recorded in the old literature. \n  The RDF data we are creating is a conversion of humanities knowledge from a form that was ambiguously contained in written human language into explicit data that computers can recognize. \n  This can be used as primary learning data for the deep-learning process of AI. \nHowever, which I think more important than this utilization effect, is that were able to see the possibility of a new learning method that allows young students of the digital native generation to explore Korea's traditional culture in a digital language familiar to them.\n  Traditional cultures of China, Japan, Vietnam, and Korea, which used Classical Chinese as the language of global communication, have many similarities and relationships with their uniqueness.  Classical East Asian studies conducted in a digital environment will enable the exploration of East Asian culture in a convergent open space.\n  If  we have a vision for trans-East Asian classical studies, future researchers who will realize it should be educated to have the capabilities of digital-based learning and research.  I hope the experience of the Hanyang Time Machine project can be a reference for this task.",
     "Schedule": "D2_Center_Session 1 Room 3",
     "presenters": [
@@ -1524,7 +1544,7 @@
   {
     "ID": 198,
     "PresentationTitle": "Ming Dynasty Examination Record Studies: Focusing on the Provincial Exam Level",
-    "Abstract": "Abstract: This presentation utilizes digital humanities methods to analyze a vast dataset of 18677 exam comments made by 2322 examiners of the Ming dynasty in 271 provincial exams. The Ming dynasty Examination records at the provincial level provide the largest set of official examination sources in Chinese history, offering a wealth of information for understanding the format and content of the examination system of the Ming dynasty. The records include examiners' comments on the top juren candidate essays, detailing why they believe a candidate's essay is superior and deserves a degree. By using keyword frequency-based word clouds, word-embedded co-occurrence analysis, and jaccard similarity dendrograms, this study examines examiners' word patterns and identifies common qualities of successful examination papers from their perspective. The initial findings suggest that examiners had an excessive interest in conveying the meaning of classical texts effectively and completely, along with neatness, elegance, and succinctness. Interestingly, examiners' word patterns suggest a dislike of repetition, wordiness, lack of originality, and memorization without comprehension, while providing little evidence of interest in the renowned bagu style of essay. This text analysis approach offers a fresh perspective on the Ming dynasty examination system and provides insight into the qualities that examiners valued in successful candidates. Attendees of this presentation will gain a deeper understanding of the Ming dynasty examination system and the role of language and writing skills in the selection of officials, providing valuable insights into the history of China's educational and political systems.",
+    "Abstract": "This presentation introduces the first and largest study of examiners' comments from the Ming dynasty's provincial exams, consisting of 18,815 comments by 2,322 examiners in 271 Ming provincial exams. The study uses a combination of digital methods, including word clouds, keyword-collocation analysis, word2vec, and Jaccard similarity. The Ming examination records were released in bulk in 2010 and provide the largest set of examination records in Chinese history. The digital reprint of the source in 2016 made it possible to conduct large-scale text-mining. The presentation uses these methods to analyze the patterns in the examiners' comments and shows that examiners valued a candidate's ability to effectively convey the meaning and thesis of classical texts, with a focus on clarity, conciseness, and elegance in writing style. This contradicts the assumption that examiners preferred candidates who excelled in the standardized bagu essay style, instead revealing a preference for candidates with genuine learning, attention to detail, and comprehension of the question through expounding on the thesis, which is more akin to \"critical thinking\" than lifeless memorization.",
     "Schedule": "D3_W3_Room3",
     "presenters": [
       {
@@ -1573,6 +1593,7 @@
     "ID": 201,
     "PresentationTitle": "Heurist - a researcher-oriented infrastructure for building sustainable Humanities databases and interactive web portals",
     "ProjectLink": "http://HeuristNetwork.org",
+    "Abstract": "https://uni-Video: sydney.zoom.us/rec/share/wfk8iQSj9zrAkW5_j4xCV-B9wM2NXPEX3a50QxKonIP3nRFly1J4y3eHNlqvw2Ls.iDU3ZNNozRDNKimT \nPasscode: @8.t%23BqR\n\nAbstract: Developed since 2005, Heurist is an open source infrastructure which empowers individual reseachers and collaborative research projects to design, build and maintain their own richly linked databases and to generate embedded interactive websites. Full-featured database applications which would normally require months of technical work can be built without programming in days and iteratively extended on-the-fly as needs evolve. \n\nHeurist was designed by and for Humanities researchers and has been used across a broad range of projects in archaeology, history, literary and contemporary studies - currently more than 200 active projects. Heurist requires only a web browser, and can be used for free on several institutionally-supported public servers, or installed locally. \n\nHeurist is designed for sustainability. The code is a high-level interface to a standardised well-documented MySQL + directory structure. Project schemas and website design are stored as data integrated with content in a single self-documenting database per project. All servers/databases run identical software, so the cost of sustainability is reduced to maintaining a single codebase and a handful of vanilla Linux virtual servers, a minor cost shared across many projects.",
     "Schedule": "D3_W1_Room1",
     "presenters": [
       {
@@ -1600,7 +1621,8 @@
         "Affiliation": "University of Sydney",
         "URL": "https://heuristref.net/ian_johnson_bio.html"
       }
-    ]
+    ],
+    "Order": 6
   },
   {
     "ID": 204,
@@ -1691,6 +1713,7 @@
   {
     "ID": 210,
     "PresentationTitle": "Lepton: Natural Language Processing Application in China Historical Records Data Mining",
+    "ProjectLink": "https://docs.google.com/presentation/d/1Dt563kvDUz2xRvbRDCVzsBNk_A6KOeqHCUAwslaKZE4/edit?usp=sharing",
     "Schedule": "D2_W_Room2",
     "presenters": [
       {
@@ -1795,6 +1818,7 @@
     "ID": 216,
     "PresentationTitle": "Religious Itineracy: Travel Narratives in the Biographies of Eminent Monks",
     "ProjectLink": "https://youfun.litphil.sinica.edu.tw/",
+    "Abstract": "Traveling around establishes the foundation of the monks’ cultivation of mind and knowledge, and is a means of propagating the Buddhist faith. In this workshop, I would like to introduce an academic website: “Religious Itineracy: Travel Narratives in the Biographies of Eminent Monks”, designed by the Ethereal Drip-Drops Lab, Institute of Chinese Literature and Philosophy, Academia Sinica, 2023.\n\nThe focus of this project is “action”. In the biographies of eminent monks in pre-modern China, it can be observed that monks often traveled for various reasons, such as studying with masters, summoning by emperors, or spreading Dharma, thereby promoting Buddhist teachings far and beyond, writing books, or compiling Buddhist scriptures. \n\nOn the “Religious Itineracy” website, we introduce two digital reading methods —“event” and “Map”. We first use event extraction, text mark-up to build a database of travel events, including 10047 data rows. Through the employment of data visualization and GIS, user can explore the political, social, and cultural interactions between the changes in the monastic life history and the different conditions of time and space.",
     "Schedule": "D2_E_Buddhism",
     "presenters": [
       {
@@ -1847,6 +1871,7 @@
   {
     "ID": 219,
     "PresentationTitle": "Kraft (Korean Romanization From Transformer)",
+    "ProjectLink": "https://docs.google.com/presentation/d/1N9tu6Bj14u21GBN05ViPbwtq_1Eu8JHR_Ntj1uREycA/edit?usp=sharing",
     "Schedule": "D2_E_Korea",
     "presenters": [
       {
@@ -1898,7 +1923,7 @@
     "ID": 222,
     "PresentationTitle": "Deconstructing the Construction: The Female Images in Chinese Detective Films, 2010-2020",
     "ProjectLink": "https://scalar.usc.edu/works/deconstructing-the-construction",
-    "Abstract": "Deconstructing the Construction: The Female Images in Chinese Detective Films, 2010-2020 is a videographic essay that explores the image of women in the most popular, influential Chinese detective films in the recent decade. This arts-based digital humanities project centers critical feminist praxis to make an ethnographic inquiry into cinema through videographic criticism. It not only closely analyzes cinematic works across China, Hong Kong, Taiwan, and other Sinophone areas but also looks into their production and reception among Sinophone communities. By creating nonlinear narration, ramified viewpoints, and associative thoughts, my work hopes to jar people into thinking about the female images in the Chinese detective film in a new way.",
+    "Abstract": "\"Deconstructing the Construction: The Female Images in Chinese Detective Films, 2010-2020\" is a videographic essay that explores the image of women in the most popular, influential Chinese detective films in the recent decade. This arts-based digital humanities project centers critical feminist praxis to make an ethnographic inquiry into cinema through videographic criticism. It not only closely analyzes cinematic works across China, Hong Kong, Taiwan, and other Sinophone areas but also looks into their production and reception among Sinophone communities. By creating nonlinear narration, ramified viewpoints, and associative thoughts, my work hopes to jar people into thinking about the female images in the Chinese detective film in a new way.",
     "Schedule": "D3_W3_Room3",
     "presenters": [
       {
@@ -1914,7 +1939,7 @@
   },
   {
     "ID": 223,
-    "PresentationTitle": "Transnational Inquiries of the Japanese Diaspora：  A Case Study of the Hoji Shinbun Digital Collection",
+    "PresentationTitle": "Transnational Inquiries of the Japanese Diaspora: A Case Study of the Hoji Shinbun Digital Collection",
     "ProjectLink": "https://hojishinbun.hoover.org/",
     "Abstract": "The Hoji Shinbun Digital Collection, created and managed by the Japanese Diaspora Initiative at the Hoover Institution Library & Archives, Stanford University, aims to preserve and make pre-WWII overseas Japanese newspapers available. Its full-text searchability and cross-search capacities allow researchers to make transnational inquiries and follow individual diasporic footsteps. Its extensive text data, albeit OCR text conversion challenges, also has prompted scholars to conduct text mining analysis. Despite its linguistic predominance in Japanese, the collection is uniquely American, not only bridging Japan and Asian American studies but serving American society at large, more specifically, people of color. Longevity, sustainability, and engagement are the pillars of this digital collection. For these purposes, the HSDC promotes collaborations in multiple areas: collaboration with local and Japanese general public communities, scholars, and institutions. This presentation showcases different areas of collaboration and the importance of diverse community engagement in the project’s longevity and sustainability.",
     "Schedule": "D2_E_Japan",
@@ -2046,6 +2071,7 @@
         "Title": "Masahiro Shimoda",
         "LastName": "Shimoda",
         "FirstName": "Masahiro",
+        "CJKName": "下田正弘",
         "Affiliation": "SAT, University of Tokyo"
       }
     ],
@@ -2106,7 +2132,7 @@
   },
   {
     "ID": 236,
-    "PresentationTitle": "Day 2 Plenary session Ryu Junbeom",
+    "PresentationTitle": "Day 2 Plenary session Ryu Junbeom and Ha Myungjoon",
     "Schedule": "D2_P_Research",
     "presenters": [
       {
@@ -2123,7 +2149,7 @@
         "LastName": "Ha",
         "FirstName": "Myungjoon",
         "CJKName": "하명준",
-        "Affiliation": "NATIONAL INSTITUTE OF KOREAN HISTORY"
+        "Affiliation": "National Institute of Korean History"
       }
     ],
     "Order": 4
@@ -2131,7 +2157,7 @@
   {
     "ID": 237,
     "PresentationTitle": "Day 2 Plenary session Bhikshu Huimin: \"Strategies and Principles for Establishing a Digital Buddhist Research Center and Exploring the Role of General Artificial Intelligence\"",
-    "Abstract": "The presentation suggests strategies and principles for setting up a digital Buddhist research center in a university. The first set of ideas relate to traditional views and include digital archiving of Buddhist texts and artifacts, as well as utilizing digital technologies for e-learning in Buddhist studies. The second set of ideas focus on administration and suggest developing a clear mission statement, fostering interdisciplinary collaboration, engaging with the Buddhist community, evaluating the impact of the research center, and seeking funding.\n\nThe presentation also explores the potential of using General Artificial Intelligence (GAI) in Buddhist research. This involves integrating the right knowledge and understanding for GAI applications, testing and verifying GAI responses for accuracy and reliability, and considering ethical and legal issues related to the use of GAI in Buddhist research. The role of GAI in supporting learning, writing, and training in Buddhist studies is also discussed, along with ethical considerations and best practices for its use. Copyright and legal issues related to the use of GAI in Buddhist research are also highlighted.",
+    "Abstract": "The presentation suggests strategies and principles for setting up a digital Buddhist research center in a university. The first set of ideas relate to traditional views and include digital archiving of Buddhist texts and artifacts, as well as utilizing digital technologies for digital humanities and e-learning in Buddhist studies. The second set of ideas focus on administration and suggest developing a clear mission statement, fostering interdisciplinary collaboration, engaging with the Buddhist community, evaluating the impact of the research center, and seeking funding.\nThe presentation also explores the potential of using General Artificial Intelligence (GAI) in Buddhist research. This involves integrating the right knowledge and understanding for GAI applications, testing and verifying GAI responses for accuracy and reliability, and considering ethical and legal issues related to the use of GAI in Buddhist research. The role of GAI in supporting learning, writing, and training in Buddhist studies is also discussed, along with ethical considerations and best practices for its use. Copyright and legal issues related to the use of GAI in Buddhist research are also highlighted.",
     "Schedule": "D2_P_Research",
     "presenters": [
       {
@@ -2150,6 +2176,7 @@
     "ID": 238,
     "PresentationTitle": "Day 2 Center Buddhism Bhikshu Huimin: The Status and Future of the Library and Information Center of Dharma Drum Institute of Liberal Arts (Part I): An Overview and  Introduction to the Comprehensive Buddhist Electronic Text Archive (CBETA) Foundation",
     "ProjectLink": "https://lic.dila.edu.tw/en/node/12986%23/tab1/cbeta",
+    "Abstract": "The presentation is divided into two main sections. The first section provides an overview of the Library and Information Center of Dharma Drum Institute of Liberal Arts, including resources, access services and tools, a linked open data platform, and potential challenges and opportunities for the future. The second section introduces the Comprehensive Buddhist Electronic Text Archive (CBETA) Foundation, including a brief history of the Chinese Buddhist Electronic Text Association (CBETA) series, the mission and goals of the CBETA Foundation, and the status and future development of the CBETA Foundation.",
     "Schedule": "D2_Center_Session 1 Room 4",
     "presenters": [
       {
@@ -2166,7 +2193,7 @@
   },
   {
     "ID": 239,
-    "PresentationTitle": "(Day 2 Center)The Status and Future of the Library and Information Center of Dharma Drum Institute of Liberal Arts (Part II) - Brief Introduction to  Digital Resources for \u000BBuddhist Studies Developed by DILA",
+    "PresentationTitle": "(Day 2 Center)The Status and Future of the Library and Information Center of Dharma Drum Institute of Liberal Arts (Part II) - Brief Introduction to  Digital Resources for Buddhist Studies Developed by DILA",
     "Schedule": "D2_Center_Session 1 Room 4",
     "presenters": [
       {
@@ -2174,6 +2201,7 @@
         "Title": "Jen Jou Hung",
         "LastName": "Hung",
         "FirstName": "Jen Jou",
+        "CJKName": "洪振洲",
         "Affiliation": "Dharma Drum Institute of Liberal Arts",
         "URL": "http://joeyhung.info/short-cv/"
       }
@@ -2217,7 +2245,7 @@
   {
     "ID": 242,
     "PresentationTitle": "Day 1 Library sessions National Central Library, Taiwan Chuang Hui-ju",
-    "Schedule": "D1_libraries_sessions 1",
+    "Schedule": "D1_libraries_sessions 2",
     "presenters": [
       {
         "ID": 16,
@@ -2247,7 +2275,7 @@
   },
   {
     "ID": 246,
-    "PresentationTitle": "Day 1  Library sessions Libraries of Vietnam-Hằng Bùi Thu",
+    "PresentationTitle": "Day 1  Library sessions Libraries of Vietnam-Bùi Thu Hằng",
     "Schedule": "D1_libraries_sessions 4",
     "presenters": [
       {
@@ -2256,7 +2284,7 @@
         "LastName": "Bùi",
         "FirstName": "Thu Hằng",
         "CJKName": "Thu Hang Bui",
-        "Affiliation": "Library Director; The University of the Social Sciences and Humanitives, Vietnam National University Ho Chi Minh City (USSH, VNUHCM).",
+        "Affiliation": "Library Director; The University of the Social Sciences and Humanitives, Vietnam National University Ho Chi Minh City (USSH, VNUHCM)",
         "URL": "https://lib.hcmussh.edu.vn"
       }
     ],
@@ -2264,7 +2292,8 @@
   },
   {
     "ID": 247,
-    "PresentationTitle": "Day 1  Library sessions Libraries of Vietnam Nguyen Thi Minh Trung",
+    "PresentationTitle": "Day 1  Library sessions Libraries of Vietnam Nguyen Thi Minh Trung - Information resource management and knowledge dissemination in the Library of Social Sciences, Vietnam Academy of Social Sciences.",
+    "Abstract": "My presentation is about information resource management and knowledge dissemination in the Library of Social Sciences, Vietnam Academy of Social Sciences. I will briefly introduce the LSS and its information resources, its measures to improve the information resource management and information/knowledge dissemination capabilities in the past ten years. Then I will discuss LSS plans to foster knowledge dissemination with a focus on the development of an electronic-digital library system for VASS libraries in the near future.",
     "Schedule": "D1_libraries_sessions 4",
     "presenters": [
       {
@@ -2316,7 +2345,7 @@
     "presenters": [
       {
         "ID": 96,
-        "Title": "Marth Whitehead",
+        "Title": "Martha Whitehead",
         "LastName": "Whitehead",
         "FirstName": "Martha",
         "Affiliation": "Vice President for the Harvard Library"
@@ -2383,7 +2412,7 @@
         "LastName": "Bùi",
         "FirstName": "Thu Hằng",
         "CJKName": "Thu Hang Bui",
-        "Affiliation": "Library Director; The University of the Social Sciences and Humanitives, Vietnam National University Ho Chi Minh City (USSH, VNUHCM).",
+        "Affiliation": "Library Director; The University of the Social Sciences and Humanitives, Vietnam National University Ho Chi Minh City (USSH, VNUHCM)",
         "URL": "https://lib.hcmussh.edu.vn"
       }
     ],
@@ -2461,6 +2490,7 @@
         "Title": "Jen Jou Hung",
         "LastName": "Hung",
         "FirstName": "Jen Jou",
+        "CJKName": "洪振洲",
         "Affiliation": "Dharma Drum Institute of Liberal Arts",
         "URL": "http://joeyhung.info/short-cv/"
       }
@@ -2589,14 +2619,16 @@
         "Title": "Hsiang-An Wang",
         "LastName": "Wang",
         "FirstName": "Hsiang-An",
-        "Affiliation": "Academia Sinica Center for Digital Cultures"
+        "Affiliation": "Center for Digital Cultures, Academia Sinica"
       }
     ],
     "Order": 2
   },
   {
     "ID": 270,
-    "PresentationTitle": "Day 2 Center Academic Sinica-Sophy Shu-Jiun Chen",
+    "PresentationTitle": "Brave New Digital World: Here Comes ASCDC!",
+    "ProjectLink": "https://ascdc.sinica.edu.tw/en/",
+    "Abstract": "The primary mission of ASCDC is to work together with other domestic and foreign institutes to facilitate the digital turn in humanities research. To achieve the mission mentioned above, ASCDC has formulated four major development strategies (1) Linked Knowledge Bases for Digital Humanities, (2) Innovative Cyberinfrastructure and Digital Tools, (3) Academic Research in the Digital Humanities:, and (4)Outreach Initiatives: Publication and Exhibition. \nCore work objectives include the development of text and image research platforms, digital technology and tools, Linked Open Data (LOD) research and practice, digital museums, publication and book fair operations, database and knowledge base operation and maintenance, strengthening of international connections and collaboration, etc. Open calls for proposals are also held for “Digital Humanities Research Project” subprojects. Through these proposals from both institutes and individual researchers, we jointly advance Academia Sinica’s research in the field of digital humanities and establish digital humanities knowledge bases.",
     "Schedule": "D2_Center_Session 2",
     "presenters": [
       {
@@ -2674,7 +2706,7 @@
         "LastName": "Ha",
         "FirstName": "Myungjoon",
         "CJKName": "하명준",
-        "Affiliation": "NATIONAL INSTITUTE OF KOREAN HISTORY"
+        "Affiliation": "National Institute of Korean History"
       }
     ],
     "Order": 2
@@ -2720,6 +2752,7 @@
         "Title": "Masahiro Shimoda",
         "LastName": "Shimoda",
         "FirstName": "Masahiro",
+        "CJKName": "下田正弘",
         "Affiliation": "SAT, University of Tokyo"
       }
     ],
@@ -2728,6 +2761,7 @@
   {
     "ID": 279,
     "PresentationTitle": "Day 1 Library Sessions- Digital Initiatives Division-Kim Suejeong",
+    "Abstract": "Digitizing, Utilizing and Opening Library Data",
     "Schedule": "D1_libraries_sessions 3",
     "presenters": [
       {
@@ -2801,10 +2835,12 @@
         "Title": "Jen Jou Hung",
         "LastName": "Hung",
         "FirstName": "Jen Jou",
+        "CJKName": "洪振洲",
         "Affiliation": "Dharma Drum Institute of Liberal Arts",
         "URL": "http://joeyhung.info/short-cv/"
       }
-    ]
+    ],
+    "Order": 5
   },
   {
     "ID": 285,
@@ -2843,6 +2879,24 @@
         "FirstName": "Hyunjoo",
         "Affiliation": "Sogang University",
         "URL": "https://sites.google.com/view/hyang"
+      }
+    ],
+    "Order": 2
+  },
+  {
+    "ID": 287,
+    "PresentationTitle": "Modern China Biographical Database",
+    "ProjectLink": "https://heurist.huma-num.fr/h6-alpha/?db=ModernChinaBiographicalDatabase&website&id=109237&pageid=109242%23",
+    "Schedule": "D3_W2_Room2",
+    "presenters": [
+      {
+        "ID": 139,
+        "Title": "Cécile Armand",
+        "LastName": "Armand",
+        "FirstName": "Cécile",
+        "CJKName": "孟喜",
+        "Affiliation": "Aix-Marseille University",
+        "URL": "https://www.mengxi.eu/"
       }
     ],
     "Order": 2
