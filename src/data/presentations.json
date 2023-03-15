@@ -92,7 +92,7 @@
   "Order" : 5
 }, {
   "ID" : 8,
-  "PresentationTitle" : "SHINE: An API & Data Model to Facilitate the Representation and Exchange of Digital Texts",
+  "PresentationTitle" : "SHINE API",
   "ProjectLink" : "https://www.mpiwg-berlin.mpg.de/research/projects/rise-and-shine-research-infrastructure-study-eurasia",
   "Abstract" : "In the past two decades, many historical and cultural resources have been digitized as digital texts and many digital research tools have been developed. However, there is no established channel between such digital resources and research tools to allow data exchange, resulting in a huge barrier for any scholar to perform digital analysis -- scholars either have to limit themselves to work with whatever a database provides as analytical tools, or they have to download the texts from multiple databases and bring them to a specific research tool in order to apply certain analytical methods. The goal of SHINE API is to fill this gap and become the standard exchange protocol for database providers and research tool developers. We will report on the resources and tools that have implemented SHINE.",
   "Schedule" : "D3_W2_Room1",
@@ -105,7 +105,7 @@
     "Affiliation" : "Max Planck Institute for the History of Science",
     "URL" : "https://www.mpiwg-berlin.mpg.de/users/schen"
   } ],
-  "Order" : 3
+  "Order" : 2
 }, {
   "ID" : 9,
   "PresentationTitle" : "The Secret Societies in Qing China: Archival Studies and Digital Humanities",
@@ -156,7 +156,7 @@
     "Affiliation" : "KU Leuven & IISH",
     "URL" : "https://www.arts.kuleuven.be/english/our-staff/zap/hildedeweerdt"
   } ],
-  "Order" : 4
+  "Order" : 7
 }, {
   "ID" : 12,
   "PresentationTitle" : "Ming Qing Women's Writings Digital Archive and Database Project",
@@ -347,7 +347,7 @@
   "Order" : 2
 }, {
   "ID" : 27,
-  "PresentationTitle" : "Interactive HPC using Containers on Nautilus:Introduction to PRP Nautilus, Kubernetes, and Containerized Software",
+  "PresentationTitle" : "Digital Classical Chinese Texts: Building a Machine Learning Platform for Collaborative Graduate Research",
   "Schedule" : "D3_W2_Room1",
   "presenters" : [ {
     "ID" : 38,
@@ -357,7 +357,7 @@
     "CJKName" : "胡明辉",
     "Affiliation" : "History, University of California Santa Cruz"
   } ],
-  "Order" : 6
+  "Order" : 4
 }, {
   "ID" : 28,
   "PresentationTitle" : "Singapore Ecological History Map / Singapore and Southeast Asia Historical Biodiversity Database",
@@ -439,7 +439,7 @@
     "FirstName" : "Matthias",
     "Affiliation" : "Staatsbibliothek zu Berlin"
   } ],
-  "Order" : 5
+  "Order" : 3
 }, {
   "ID" : 34,
   "PresentationTitle" : "Plenary Session - Library Visions of the Future (Korea)",
@@ -618,7 +618,7 @@
     "Affiliation" : "Nanyang Technological University Singapore & Dumbarton Oaks",
     "URL" : "https://www.linkedin.com/in/andreananetti/"
   } ],
-  "Order" : 2
+  "Order" : 1
 }, {
   "ID" : 47,
   "PresentationTitle" : "Political Vocabulary of the Japanese Diaspora, 1895 - 1943",
@@ -813,7 +813,7 @@
     "Affiliation" : "The University of Chicago",
     "URL" : "http://www.tharsen.net/"
   } ],
-  "Order" : 1
+  "Order" : 6
 }, {
   "ID" : 165,
   "PresentationTitle" : "Algorithmic Detection of Intertextuality (\"Text Reuse\") in Digital East Asian Corpora",
@@ -844,7 +844,7 @@
     "CJKName" : "杜協昌",
     "Affiliation" : "The Research Center for Digital Humanities at National Taiwan University"
   } ],
-  "Order" : 7
+  "Order" : 5
 }, {
   "ID" : 168,
   "PresentationTitle" : "Python tools for Chinese Studies",
@@ -1039,7 +1039,7 @@
   "Order" : 11
 }, {
   "ID" : 182,
-  "PresentationTitle" : "Architectura Sinica and the ATTCAT Project",
+  "PresentationTitle" : "Architectura Sinica and the ATTCAT Project (joint presentation)",
   "ProjectLink" : "https://architecturasinica.org/index.html",
   "Abstract" : "ARCHITECTURASINICA\nInitially made available in 2019, ArchitecturaSinica is the first open-source, publicly accessible research database dedicated to scholarly research on the architecture and built environment of pre-modern China. \n\nAs it stands today ArchitecturaSinica consists of three important modules: \n1.\tA Dynamic Site Archive \n2.\tThe Thesaurus of Architectural Terminology \n3.\tOur Bibliography\n\nATTCAT PROJECT\nThe annotations for technical terms published at ArchitecturaSinica are developed through student-faculty collaborations as part of the ATTCAT (Annotation and Translation of Traditional Chinese Architecture Terminology) Project. Research is presented at an annual workshop in June where experts evaluate definitions and suggest revisions. To date we have published richly annotated definitions of more than 100 different terms.\n\nWe like the iterative process of web publication—we can “publish” individual entries into a centralized, interactive, expandable platform every year. But we ask: is there a role for paper publication? How do we preserve data without it?",
   "Schedule" : "D3_W2_Room1",
@@ -1388,7 +1388,7 @@
     "CJKName" : "苏祺",
     "Affiliation" : "Peking University"
   } ],
-  "Order" : 10
+  "Order" : 11
 }, {
   "ID" : 208,
   "PresentationTitle" : "WuYuDian(吾與點): An Intelligent annotation system for Chinese ancient texts",
@@ -1404,7 +1404,7 @@
     "Affiliation" : "Digital Humanities Center, Peking University",
     "URL" : "http://pkudh.org/service/wangjun"
   } ],
-  "Order" : 11
+  "Order" : 10
 }, {
   "ID" : 209,
   "PresentationTitle" : "Georeferencing Far Northern Literati from Ex-Liao Territory Under Jurchen Rule",
