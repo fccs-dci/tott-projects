@@ -39,7 +39,10 @@ const { p } = Astro.props;
     <p>{p.Abstract}</p>
     {
         p.File === "Not sharing" ? null : (
-            <a href={`../pdf/${p.File}`} target="_blank">
+            <a
+                href={`https://github.com/fccs-dci/tott-projects/raw/main/public/pdf/${p.File}`}
+                target="_blank"
+            >
                 Download the presentation slide in form of PDF
             </a>
         )
